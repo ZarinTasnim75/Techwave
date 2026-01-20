@@ -107,3 +107,87 @@ ul {
   border-radius: 30px;
   color: #00ff88;
 }
+.apps{
+   background-color: #1A0B2E;
+  
+}
+.para {
+    color: white;
+ text-align: center;
+}
+.para p{
+    padding:6px;
+    font-weight:lighter;
+    font-size: 10px;
+    
+}
+.line {
+  height: 1px;
+  background-color: rgb(91, 90, 90);
+  margin: 20px 200px;
+}
+.frame3{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+.frame3 h2{
+    font-size: 3em;
+    color: #00ff88;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.apps2{
+    color: white;
+    background-color: #230E3D;
+    padding-bottom: 100px;
+
+}
+.apps2 h2{
+        text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-size: 2em;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;  
+
+}
+.card {
+  background-color: #321952;
+  border-radius: 20px;
+  padding: 28px;
+  margin-right: 150px;
+}
+.tall_card{
+    grid-row: span 2;
+    background-color: #321952;
+  border-radius: 20px;
+  padding: 28px;
+  margin-left: 150px;
+}
+.wide_card{
+    grid-column: span 2;
+        background-color: #321952;
+  border-radius: 20px;
+  padding: 28px;
+  margin-right: 150px;
+}
+.wide_card2{
+  grid-column: span 2;
+  background-color: #321952;
+  border-radius: 20px;
+  padding: 28px;
+  margin-left: 150px;
+}
+.grid p{
+    color: rgb(161, 160, 160);
+}
+.grid h3{
+    padding-top: 15px;
+    font-size: 1.7em;
+    padding-bottom: 15px;
+}
